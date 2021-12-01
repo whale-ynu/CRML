@@ -20,13 +20,14 @@ class CRML:
     def __init__(self, n_users, n_items, embed_dim=50, margin=1.5, scaling_factor=3 / 4, cooccurrence_cap=100, alpha=0, beta=0, master_learning_rate=0.001,
                  clip_norm=1.0, use_rank_weight=False, use_cov_loss=False, cov_loss_weight=10, random_seed=2018, mode='USER'):
         """
-        :param n_users: number of users i.e. |U|
-        :param n_items: number of items i.e. |V|
-        :param embed_dim: embedding size i.e. K (default 20)
-        :param features: (optional) the feature vectors of items, shape: (|V|, N_Features).
-               Set it to None will disable feature trust_loss(default: None)
-        :param margin: hinge trust_loss threshold i.e. z
-        :param master_learning_rate: master learning rate for AdaGrad
+        :param n_users: number of users
+        :param n_items: number of items
+        :param embed_dim: embedding size
+        :param margin: margin threshold for hinge loss
+        :param scaling_factor: scaling factor for co-coocurrence
+        :param cooccurrence_cap=100
+        :param alpha, beta: regularization coefficients
+        :param master_learning_rate: master learning rate
         :param clip_norm: clip norm threshold (default 1.0)
         """
         self.mode = mode
