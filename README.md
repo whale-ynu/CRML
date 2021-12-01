@@ -5,8 +5,7 @@ Sourcecode for the paper listed below:
                Qimin Zhou and
                Rencan Nie and
                Jinde Cao},
-  title     = {Effective metric learning with co-occurrence embedding for collaborative
-               recommendations},
+  title     = {Effective metric learning with co-occurrence embedding for collaborative recommendations},
   journal   = {Neural Networks},
   volume    = {124},
   pages     = {308--318},
