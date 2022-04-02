@@ -1,4 +1,4 @@
-# Code4NeuNet
+# CRML
 Sourcecode for the paper listed below:
 
 @article{DBLP:journals/nn/WuZNC20,                                                                                                                                                
