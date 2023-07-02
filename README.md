@@ -1,5 +1,4 @@
-# CRML
-Sourcecode for the paper listed below:
+# Reference
 
 ```
 @article{WuZNC20,                                                                                                                                                
@@ -13,7 +12,7 @@ Sourcecode for the paper listed below:
   doi       = {10.1016/j.neunet.2020.01.021}                                                                                                                                       
 }
 ```
-#requirements for installation
+# Requirements
 
 Tensorflow >=1.14.0
 Python >=3.6.0
