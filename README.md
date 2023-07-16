@@ -1,5 +1,5 @@
 # Reference
-
+***We really appreciate if your publications resulting from the projects that make use of CRML would cite our work!***
 ```
 @article{WuZNC20,                                                                                                                                                
   author    = {Hao Wu and Qimin Zhou and Rencan Nie and Jinde Cao},                                                                                                                
